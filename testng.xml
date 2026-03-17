@@ -6,8 +6,9 @@
 <suite name="RestAssuredSuite">
     <test name="APITests">
         <classes>
-            <class name="sd.CreateUserPostCallTest" />
-            <class name="sd.CreateUserPostCallTest" />
+            <!-- <class name="sd.CreateUserPostCallTest" />
+            <class name="sd.CreateUserPostCallTest" /> -->
+            <class name="sd.SelenumTest.java" /> -->
         </classes>
     </test>
 </suite>
