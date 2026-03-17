@@ -1,0 +1,3 @@
+//Best practices while setting up jenkin pipe line while api testing
+1.exclude file like token storage while commiting/ auto commit and on changes
+2.if from enviroment variable 

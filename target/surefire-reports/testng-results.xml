@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T10:38:19 IST" name="Surefire suite" finished-at="2026-03-17T10:38:29 IST" duration-ms="9562">
+    <groups>
+    </groups>
+    <test started-at="2026-03-17T10:38:19 IST" name="Surefire test" finished-at="2026-03-17T10:38:29 IST" duration-ms="9562">
+      <class name="sd.restassured.JSONObj">
+        <test-method signature="SchemaValidation()[pri:0, instance:sd.restassured.JSONObj@4c39bec8]" started-at="2026-03-17T10:38:19 IST" name="SchemaValidation" finished-at="2026-03-17T10:38:24 IST" duration-ms="5086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SchemaValidation -->
+        <test-method signature="testPostRequest()[pri:0, instance:sd.restassured.JSONObj@4c39bec8]" started-at="2026-03-17T10:38:24 IST" name="testPostRequest" finished-at="2026-03-17T10:38:27 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequest -->
+        <test-method signature="testPostRequestWithPojo()[pri:0, instance:sd.restassured.JSONObj@4c39bec8]" started-at="2026-03-17T10:38:27 IST" name="testPostRequestWithPojo" finished-at="2026-03-17T10:38:29 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestWithPojo -->
+      </class> <!-- sd.restassured.JSONObj -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

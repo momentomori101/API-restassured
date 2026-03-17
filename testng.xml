@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+//add liseners to the testng.xml file
+<listeners>
+    <listener class-name="sd.ListenersTest" />
+<suite name="RestAssuredSuite">
+    <test name="APITests">
+        <classes>
+            <class name="sd.CreateUserPostCallTest" />
+            <class name="sd.CreateUserPostCallTest" />
+        </classes>
+    </test>
+</suite>
