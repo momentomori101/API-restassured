@@ -5,7 +5,7 @@
 <suite name="RestAssuredSuite">
 
     <listeners>
-        <listener class-name="sd.ListenersTest"/>
+        <listener class-name="sd.Listner"/>
     </listeners>
 
     <test name="APITests">
