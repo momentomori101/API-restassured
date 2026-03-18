@@ -192,7 +192,7 @@ public class SelenumTest {
 
 //execute test case withing specified limits. 
 //timeout is used
-    @Test(enabled = true,timeOut = 10000, expectedExceptions = {org.openqa.selenium.NoSuchElementException.class})
+    @Test(enabled = true,timeOut = 10000)
     public void Locator() {
         driver.get("https://the-internet.herokuapp.com/windows");
 
