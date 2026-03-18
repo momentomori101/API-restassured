@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-//add liseners to the testng.xml file
-<listeners>
-    <listener class-name="sd.ListenersTest" />
+
+<!-- add listeners to the testng.xml file -->
 <suite name="RestAssuredSuite">
+
+    <listeners>
+        <listener class-name="sd.ListenersTest"/>
+    </listeners>
+
     <test name="APITests">
         <classes>
-            <!-- <class name="sd.CreateUserPostCallTest" />
-            <class name="sd.CreateUserPostCallTest" /> -->
-            <class name="sd.SelenumTest.java" /> -->
+            <!-- <class name="sd.CreateUserPostCallTest" /> -->
+            <!-- <class name="sd.CreateUserPostCallTest" /> -->
+            <class name="sd.SelenumTest"/>
         </classes>
     </test>
+
 </suite>
